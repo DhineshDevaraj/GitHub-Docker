@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-service-locator</finalName>
 	</build>
 
 </project>
