@@ -28,7 +28,7 @@ jobs:
     - name: Build and push docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: dhinesh/spring-boot-service-locator
+        image: dhineshdevaraj/spring-boot-service-locator
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
